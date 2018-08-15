@@ -1,0 +1,160 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: Lzl1y1cC6TvXytLj6okU81/P8AA=
+
+Name: system/lib64/android.hardware.camera.device@3.2.so
+SHA1-Digest: kwLv1qtRiGVXU8wYQ9aczyXra38=
+
+Name: system/lib64/libcameraservice.so
+SHA1-Digest: iv1GUucUOWgTgPEi9tmnK8fnI70=
+
+Name: system/etc/device_features/tissot_sprout.xml
+SHA1-Digest: 56djNH4iS1eNumzTkDu+LnvVyXo=
+
+Name: system/etc/permissions/android.hardware.camera.raw.xml
+SHA1-Digest: IhOpGOGH0fHD1ILpxTEhitT0+NI=
+
+Name: config.sh
+SHA1-Digest: IjYkA8ulMFlRuMiMePKMRrUeQ/c=
+
+Name: system/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp.so
+SHA1-Digest: 2raybB2XbsFFtN4jogzmXMvCcfI=
+
+Name: system/priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.
+ so
+SHA1-Digest: tPiSxNMuvNARe5+umwZ9pEP/IUU=
+
+Name: system/lib/android.hardware.camera.common@1.0.so
+SHA1-Digest: QzhTAnttbKXXRKQVCqqaWq+IC18=
+
+Name: system/lib64/android.hardware.camera.common@1.0.so
+SHA1-Digest: G5dI1VPEzEC0sj9Ozt/7Y7R+lXQ=
+
+Name: system/lib64/libcamera_client.so
+SHA1-Digest: UXsyVZWDCzuJbcp+rfN3NXagSrc=
+
+Name: common/post-fs-data.sh
+SHA1-Digest: efS4IF053RKWYBN6znJNdFYhcGs=
+
+Name: system/priv-app/MiuiCamera/lib/arm64/libmorpho_group_portrait.so
+SHA1-Digest: YcRf786C3AG2a/ISPB/gApy55m8=
+
+Name: system/etc/age_gender_bg
+SHA1-Digest: xzCk1cuJdsXZROCBXNy++Mp/IEU=
+
+Name: LICENSE.md
+SHA1-Digest: hiS82uVbru8AzRHV38+mD2hxCgI=
+
+Name: system/priv-app/MiuiCamera/lib/arm64/libmorpho_groupshot.so
+SHA1-Digest: ovLyTUL6Mm0RoKcyIGktJJwTkm8=
+
+Name: system/etc/face_goodly_208_180
+SHA1-Digest: k0yW5V+RIhkhiQcx0JeOMCfmg/I=
+
+Name: system/lib64/android.hardware.camera.device@3.3.so
+SHA1-Digest: uTX+vWzlmchaRrFgo4wf8S7E4Xo=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: JI97C8cW14Pf9ZyAiBmub0r6YO8=
+
+Name: system/lib/android.hardware.camera.provider@2.4.so
+SHA1-Digest: WuMuWZZbgHGspBcGqLWvN1ic8w8=
+
+Name: system/etc/MIUI_Normal.ttf
+SHA1-Digest: tSkhXaSyjkm5n0IIK62Nom6rzhg=
+
+Name: system/priv-app/MiuiCamera/lib/arm64/libmmcamera_faceproc.so
+SHA1-Digest: IpkWyz+MCz9jj2woOYCUjLy/3g0=
+
+Name: system/priv-app/MiuiCamera/MiuiCamera.apk
+SHA1-Digest: wWY7RWjegtUbJ+N5KucIRjvd7OQ=
+
+Name: README.md
+SHA1-Digest: BKDPdXoOPbY6PI5rZsiIrCVNHtk=
+
+Name: module.prop
+SHA1-Digest: 1k7TTNRaFIoERzEzrOMv98RUOPA=
+
+Name: system/lib/android.hardware.camera.device@3.4.so
+SHA1-Digest: SyzwvG6JfY7/pegWSmw7JsT6+8k=
+
+Name: system/lib/libcamera_metadata.so
+SHA1-Digest: IAiZvPz+cWbF1rR+SAbiMRYg27A=
+
+Name: system/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama.so
+SHA1-Digest: 4Ldx8WNEwP6JR3E6x1L97wuhNWo=
+
+Name: system/lib64/android.hardware.camera.device@3.4.so
+SHA1-Digest: eh3ly81BfzRTZcnPHpDrnpWIXOM=
+
+Name: system/priv-app/MiuiCamera/lib/arm64/libcutils.so
+SHA1-Digest: O0QJDJc0ILPjKm8SCcPqhgXVH/s=
+
+Name: system/etc/face_ravishing_238_224
+SHA1-Digest: NnNxIJjmfmeUMdssgvCLa5EAnRs=
+
+Name: system/lib/libcameraservice.so
+SHA1-Digest: h4QA0Z/FqYdrysyfpxTSe6Po+Nw=
+
+Name: system/lib/android.hardware.camera.device@3.3.so
+SHA1-Digest: XeyLIYNw20crqTTfKFAfTceBaWU=
+
+Name: system/priv-app/MiuiCamera/lib/arm64/libmmcamera_faceproc2.so
+SHA1-Digest: 1AUpEcBG4h50upBiCL5Kyl6I2SE=
+
+Name: system/etc/permissions/android.hardware.camera.full.xml
+SHA1-Digest: Tx9+qBAVuEsDexjMRVN5TnDhxNQ=
+
+Name: system/etc/MIUI_Time.ttf
+SHA1-Digest: rRxMtf3FNzHEsmMHbYoKGD++Jj0=
+
+Name: system/lib64/android.hardware.camera.provider@2.4.so
+SHA1-Digest: QbcZGNFePNSASSSZbsltBz0Slnc=
+
+Name: system/etc/watermark_font_2300_3199.dat
+SHA1-Digest: RwwQQpiIuJlmr162ELE7hDoaAkg=
+
+Name: common/service.sh
+SHA1-Digest: hCOn0sjc2mEMqqqcb7TFt4BEcVM=
+
+Name: system/etc/MIUI_Bold.ttf
+SHA1-Digest: s0LKLrWvQPo7aPuPMAPHEMovrsA=
+
+Name: system/lib64/libcamera2ndk.so
+SHA1-Digest: kCBKYmTlgoqFGrYV7CXn3Zy6rkM=
+
+Name: system/lib/android.hardware.camera.device@1.0.so
+SHA1-Digest: JMZ3vwCkC/MiLViPy1J//M9dj9M=
+
+Name: system/etc/face_splendid_274_200
+SHA1-Digest: Q5HwVjQJjZiAnZTGr6NKiMo1Nig=
+
+Name: common/system.prop
+SHA1-Digest: yzD2x75+i4IiiBZt+ppjzXJ5wh0=
+
+Name: system/lib/android.hardware.camera.device@3.2.so
+SHA1-Digest: E7V+9MuZhNWB3hlxv4TvslCpY20=
+
+Name: system/lib/libcamera2ndk.so
+SHA1-Digest: sKNEG+iZqBgMbr4FpwKP7wO5td8=
+
+Name: system/lib/libcamera_client.so
+SHA1-Digest: hqxrnxCJU/UxSKguG9AzoxKWVpU=
+
+Name: system/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so
+SHA1-Digest: 0lcvsiziPqynRR8/D+c9Uvx4lEk=
+
+Name: system/etc/people_gender.dat
+SHA1-Digest: UXFAvCL5eBtoXnaZ7ZyetBzkv8c=
+
+Name: system/lib64/android.hardware.camera.device@1.0.so
+SHA1-Digest: 6a/XiAdZGpVuUGaSPcfJS5GtlgU=
+
+Name: system/lib64/libcamera_metadata.so
+SHA1-Digest: /UMrvilas4mjgzKRHGot6HhK+HU=
+
+Name: system/etc/dualcamera.png
+SHA1-Digest: wgaQ0i32S0aoyAqviQj2rh9nNkw=
+
