@@ -15,7 +15,6 @@ Tested working on Mi Redmi note 5 / note 5 pro Pie GSI.
 -AI switch removed(As it is not working)
 
 -After switching Front camera Always flash on(Enable HDR and capture 1 image flash will be turned off then you can capture Normal/Portrait
-
  without front flash)
 
 -Test and report me.
