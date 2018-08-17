@@ -10,7 +10,7 @@ Tested working on Mi Redmi note 5 / note 5 pro Pie GSI.
 
 -Added Support to Android Pie 9.0 (PR1 tested)
 
--May be works with other GSI/sGSI
+- Works with other GSI/sGSI
 
 -AI switch removed(As it is not working)
 
