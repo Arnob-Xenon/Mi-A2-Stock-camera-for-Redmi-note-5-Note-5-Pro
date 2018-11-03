@@ -1,31 +1,19 @@
-
-ro.product.model=Redmi Note5
-ro.product.brand=xiaomi
-ro.product.name=whyred
-ro.product.device=whyred
-ro.product.manufacturer=Xiaomi
-ro.build.product=whyred
-
 persist.camera.HAL3.enabled=1
 persist.camera.eis.enable=1
-camera.hal1.packagelist=com.whatsapp
-vendor.camera.aux.packagelist=com.android.camera,org.lineageos.snap,com.google.android.GoogleCamera,com.google.android.GoogleCameraTele,com.google.android.GoogleCameraWide,com.google.android.GoogleCamerb
+ro.product.device=whyred
 
-dalvik.vm.isa.arm64.variant=cortex-a53
-dalvik.vm.isa.arm.variant=cortex-a53
+camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi
+persist.camera.preview.ubwc=0
+persist.camera.stats.test=0
+persist.camera.depth.focus.cb=0
+persist.camera.isp.clock.optmz=0
+persist.camera.linkpreview=0
+persist.camera.isp.turbo=1
+persist.camera.set.afd=4
+persist.bokeh.switch.lux=290
+persist.camera.auxswitch.threshold=330
+persist.camera.mainswitch.threshold=419
 
-
-persist.flash.low.lux=390
-persist.flash.light.lux=340
-
-persist.imx376_ofilm.low.lux=310
-persist.imx376_ofilm.light.lux=280
-
-persist.imx376_sunny.low.lux=310
-persist.imx376_sunny.light.lux=280
-
-persist.ov13855_sunny.low.lux=385
-persist.ov13855_sunny.light.lux=370
-
-persist.s5k3l8_ofilm.low.lux=379
-persist.s5k3l8_ofilm.light.lux=367
+# The following prop will enable dual camera, if you confuse on crash, just delete it to use single camera.
+persist.camera.expose.aux=1
