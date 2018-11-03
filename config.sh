@@ -10,10 +10,9 @@
 #
 # 1. Place your files into system folder (delete the placeholder file)
 # 2. Fill in your module's info into module.prop
-# 3. Configure the settings in this file (common/config.sh)
-# 4. For advanced features, add shell commands into the script files under common:
-#    post-fs-data.sh, service.sh
-# 5. For changing props, add your additional/modified props into common/system.prop
+# 3. Configure the settings in this file (config.sh)
+# 4. If you need boot scripts, add them into common/post-fs-data.sh or common/service.sh
+# 5. Add your additional or modified system properties into common/system.prop
 #
 ##########################################################################################
 
@@ -29,10 +28,10 @@ AUTOMOUNT=true
 PROPFILE=true
 
 # Set to true if you need post-fs-data script
-POSTFSDATA=true
+POSTFSDATA=false
 
 # Set to true if you need late_start service script
-LATESTARTSERVICE=true
+LATESTARTSERVICE=false
 
 ##########################################################################################
 # Installation Message
@@ -41,12 +40,11 @@ LATESTARTSERVICE=true
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
-  ui_print "    Mi A2 Camera for Redmi Note5      "
-  ui_print "        by Arnob Porosh               "
-  ui_print " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
-  ui_print "              Installing...           "
-  ui_print " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+  ui_print "*******************************"
+  ui_print " MI A2 Port for Custom roms    "
+  ui_print "                               "
+  ui_print " Created by Arnob              "
+  ui_print "*******************************"
 }
 
 ##########################################################################################
@@ -54,19 +52,19 @@ print_modname() {
 ##########################################################################################
 
 # List all directories you want to directly replace in the system
-# By default Magisk will merge your files with the original system
-# Directories listed here however, will be directly mounted to the correspond directory in the system
+# Check the documentations for more info about how Magic Mount works, and why you need this
 
-# You don't need to remove the example below, these values will be overwritten by your own list
 # This is an example
 REPLACE="
 /system/app/Youtube
 /system/priv-app/SystemUI
 /system/priv-app/Settings
 /system/framework
+/vendor/etc/etc/media_profiles_V1_0.xml
+
 "
 
-# Construct your own list here, it will overwrite the example
+# Construct your own list here, it will override the example above
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
 REPLACE="
 "
@@ -76,9 +74,6 @@ REPLACE="
 ##########################################################################################
 
 set_permissions() {
-  # Default permissions, don't remove them
-  set_perm_recursive  $MODPATH  0  0  0755  0644
-
   # Only some special files require specific permissions
   # The default permissions should be good enough for most cases
 
@@ -91,4 +86,18 @@ set_permissions() {
   # set_perm  $MODPATH/system/bin/app_process32   0       2000    0755         u:object_r:zygote_exec:s0
   # set_perm  $MODPATH/system/bin/dex2oat         0       2000    0755         u:object_r:dex2oat_exec:s0
   # set_perm  $MODPATH/system/lib/libart.so       0       0       0644
+
+  # The following is default permissions, DO NOT remove
+  set_perm_recursive  $MODPATH  0  0  0755  0644
 }
+
+##########################################################################################
+# Custom Functions
+##########################################################################################
+
+# This file (config.sh) will be sourced by the main flash script after util_functions.sh
+# If you need custom logic, please add them here as functions, and call these functions in
+# update-binary. Refrain from adding code directly into update-binary, as it will make it
+# difficult for you to migrate your modules to newer template versions.
+# Make update-binary as clean as possible, try to only do function calls in it.
+

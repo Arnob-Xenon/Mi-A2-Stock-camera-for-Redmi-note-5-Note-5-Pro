@@ -1,6 +1,6 @@
-id=Stock_Camera_Port_Redmi_Note5
-name=Stock_Camera_Port_Redmi_Note5
-version=v4.4
-versionCode=7
-author=Arnob Porosh for whyred devices
+id=Camera_Port_MI_A2
+name=Camera_Port_MI_A2
+version=v2
+versionCode=9
+author=Arnob
 minMagisk=1500
